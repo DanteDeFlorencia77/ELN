@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f62424;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+}
+
+.article {
+    flex: 1;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.footer {
+    background-color: #F62424;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Curso CSS estilos aprenderaprogramar.com*/
+
+.destacado {font-weight:bold; font-size:100%;}
+
+p.destacado {background-color: rgb(235, 233, 238);}
+
+div.destacado { background-color: rgb(226, 52, 52); }
+
+p.destacado a, div.destacado a {background-color: yellow; font-size:120%; font-weight:lighter; }
+
+
+
